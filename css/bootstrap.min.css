@@ -22,9 +22,48 @@ z-index: -1;
 }
 
 #followup_div {
-background-color: yellow;
+background-color: #0A122A;
 height: 100%	;
 width: 100%;
 position:absolute;
 top:100%;
 }
+
+#btnanch1{
+margin-top: 100px;
+}
+
+#M_arrow_down{
+position: relative;
+z-index: 99999999;
+left: 50%;
+top: 90%;
+font-size: 50px;
+opacity: 0.5;
+}
+
+#M_arrow_up{
+position: relative;
+z-index: 99999999;
+left: 47.5%;
+top: 90%;
+font-size: 50px;
+opacity: 0.5;
+}
+
+#M_arrow_down2{
+position: relative;
+z-index: 99999999;
+left: 46.5%;
+top: 90%;
+font-size: 50px;
+opacity: 0.5;
+
+}
+
+#M_arrow_down:hover, #M_arrow_up:hover{
+	text-decoration: none;
+}
+
+ 
+ 
