@@ -10,60 +10,158 @@ margin:0px;
 }
 
 #fill_screen {
-position: fixed;
+position: absolute;
 width: 100%;
 height: 100%;
 left: 0;
 top: 0;
 right:0;
 bottom:0;
-background-color:#FF0040;
-z-index: -1;
+background-color:#0A122A;
+text-align: center;
+
 }
 
 #followup_div {
-background-color: #0A122A;
+background-color: #493736;
 height: 100%	;
 width: 100%;
 position:absolute;
 top:100%;
 }
 
-#btnanch1{
-margin-top: 100px;
+#followup_div_2 {
+background-color: #1fda9a;
+height: 100%;
+width: 100%;
+position:absolute;
+top:200%;
 }
 
-#M_arrow_down{
-position: relative;
-z-index: 99999999;
-left: 50%;
-top: 90%;
-font-size: 50px;
-opacity: 0.5;
+@font-face {
+ font-family:"font_a" ;
+ src: url("../fonts/font_a.otf") format(opentype); /* For most other browsers */
 }
 
-#M_arrow_up{
-position: relative;
-z-index: 99999999;
-left: 47.5%;
-top: 90%;
-font-size: 50px;
-opacity: 0.5;
+@font-face {
+ font-family:"font_c" ;
+ src: url("../fonts/font_c.ttf") format(truetype); /* For most other browsers */
 }
 
-#M_arrow_down2{
-position: relative;
-z-index: 99999999;
-left: 46.5%;
-top: 90%;
-font-size: 50px;
-opacity: 0.5;
+.firstmessage {
+	color: white;
+	margin-top: 10%;
+	font: 50px "font_a" , Arial , Helvetica, sans-serif ; 
+}
+
+
+@font-face {
+ font-family:"font_b" ;
+ src: url("../fonts/font_b.otf") format(opentype); /* For most other browsers */
+}
+
+.secondmessage{
+	color: white;
+	font: 70px "font_b" , Arial , Helvetica, sans-serif ; 
+}
+
+.thridmessage{
+	font : 20px Arial;
+	color: white;
+	
+}
+
+#StartLearningNowBtn{
+	margin-top: 1%;
+	width: 345px;
+	height: 40px;
+}
+
+.btn-hmepage{
+	background-color: #298A08 ;
+	moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+}
+
+#ChildrenLearningNowBtn{
+	background-color: transparent;
+	margin-top: 1%;
+	width: 345px;
+	height: 40px;
+	border-style: solid;
+	border-color: white;
+	border-width: thin;
+	moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  	color: white;
+}
+
+#AdultLearningNowBtn{
+	background-color: transparent;
+	margin-top: 1%;
+	width: 345px;
+	height: 40px;
+	border-style: solid;
+	border-color: white;
+	border-width: thin;
+	moz-border-radius: 25px;
+  	-webkit-border-radius: 25px;
+  	color: white;
+}
+
+#ChildrenLearningNowBtn:hover , #AdultLearningNowBtn:hover {
+	background-color: #EE0000;
+	color: white;
+	border-color: #EE0000;
 
 }
 
-#M_arrow_down:hover, #M_arrow_up:hover{
-	text-decoration: none;
+.btn-circle {
+  width: 40px;
+  height: 40px;
+  top: 93%;
+  font-size: 12px;
+  border-radius: 30px;
+  background-color: transparent;
+  border-color: white;
+  border-width: 2px;
+  color: white;
+  margin-top: 7.5%;
+
 }
 
+
+#arrowdown{
+	top: 20%;
+	right: 15%;
+	font-size: 1.5em;
+
+}
+
+#learnmoreabout{
+	color: white;
+	position: absolute;
+	left: 76%;
+	top: 93%;
+
+}
+
+
+ #learnmoreabout:hover{
+ 	text-decoration: none;
+ }
  
- 
+.anotherfont{
+	background-color: transparent;
+	color: white;
+	font-family: font_c;
+	font-size: 30px;
+	letter-spacing: 1px;
+
+}
+
+.anothercolor{
+	color: #298A08;
+	background-color: transparent;
+	font-size: 30px;
+}
